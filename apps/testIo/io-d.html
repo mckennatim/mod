@@ -1,0 +1,6 @@
+  <h4>Using port: {{port}} and {{lid}}</h4>
+    	<div id="chatlog">{{chatlog}}</div>
+	<input type="button" ng-click="sendMessage()" value="send message"><br>
+	<select id="lidSelect" ng-model="elected" ng-click="changeLid()" 
+		ng-options="opt.label for opt in options">
+	</select>
